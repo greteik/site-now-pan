@@ -182,7 +182,7 @@ body {
 
 .feature-img img {
   padding-left: 750px;
-  
+  padding-bottom: 150px;
 }
 
 .feature-item-1 {
@@ -237,4 +237,254 @@ body {
   padding-left: 1150px; 
   padding-top: 480px;
   position: absolute;
+}
+
+
+.section-product {
+  padding-top: 213px;
+  background-color: #FCFAF6;
+}
+
+
+.section-product-h1txt {
+  text-align: center;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 45px;
+  color: #35312E;
+}
+
+.section-product-ptxt {
+  text-align: center;
+  padding-top: 18px;
+  font-weight: 400;
+  color: #4F463F;
+  line-height: 25px;
+}
+
+.section-product-row {
+  display: flex;
+  gap: 150px;
+  justify-content: space-around;
+}
+
+.product-item h1 {
+  font-weight: 400;
+  font-size: 14px;
+  color: #35312E;
+  line-height: 20px;
+  padding-bottom: 6px;
+  padding-left: 80px;
+}
+
+.product-item p {
+  color: #6E635A;
+  font-size: 11px;
+  font-weight: 400;
+  padding-top: 4px;
+  padding-left: 80px;
+}
+
+
+.product-item11 {
+  padding-top: 50px;
+}
+
+.product-item11 h1 {
+  font-weight: 400;
+  font-size: 14px;
+  color: #35312E;
+  padding-left: 80px;
+}
+
+.product-item11 p {
+  font-weight: 400;
+  font-size: 12px;
+  color: #6E635A;
+  padding-bottom: 6px;
+  padding-top: 6px;
+  padding-left: 80px;
+}
+
+.product-item-img {
+  display: inline-flex;
+  padding-left: 87px;
+  padding-top: 21px;
+  padding-bottom: 101px;
+}
+
+.section-pov {
+  background-color: #F5F1E9;
+  display: flex;
+}
+
+.pov-row {
+  width: 600px;
+  height: 418px;
+  text-align: center;
+}
+
+.section-pov img {
+  width: 700px;
+  height: 570px;
+}
+
+.pov-row p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #35312E;
+  padding-top: 109px;
+}
+
+.pov-row h1 {
+  font-weight: 700;
+  color: #35312E;
+  font-size: 24px;
+  line-height: 45px;
+  padding-top: 163px;
+}
+
+.pov-row button a {
+  color: #4F463F;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.pov-row button {
+    margin-top: 60px;
+    display: inline-block;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #FFFFFF;
+    padding: 19px 41px 21px 41px;
+    border-radius: 1px;
+    transition: 500ms;
+    margin-bottom: 109px;
+}
+
+.pov-row button:hover {
+  background-color: #D37657;
+}
+
+
+
+.section-phone {
+  background-color: #6C674D;
+  padding-top: 80px;
+}
+
+
+
+.section-phone-row h1 {
+  font-weight: 400;
+  font-size: 23px;
+  color: #F5F1E9;
+}
+
+.section-phone-row p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #FCFAF6;
+  padding-top: 11px;
+  padding-bottom: 62px;
+}
+
+.section-phone-row input {
+  background-color: #FCFAF6;
+  width: 347px;
+  height: 60px;
+  margin-bottom: 280px;
+}
+
+.section-phone-row input::placeholder {
+  padding-left: 20px;
+  padding-top: 5px;
+}
+
+.section-phone-row button {
+  background-color: #fff;
+  padding: 20px 20px 20px 20px;
+}
+
+.section-phone-row a {
+  font-weight: 700;
+  font-size: 14px;
+  color: #4F463F;
+}
+
+
+.section-phone-list {
+  display: inline-block;
+}
+
+.section-phone-setting {
+  display: flex;
+  justify-content: space-around;
+}
+
+.phone-list-row {
+  display: flex;
+  gap: 30px;
+  padding-right: 170px;
+}
+
+.phone-list-item11 {
+  font-weight: 700;
+  font-size: 12px;
+  color: #F5F1E9;
+  padding-bottom: 9px;
+}
+
+.phone-list-item {
+  font-weight: 400;
+  font-size: 16px;
+  color: #F5F1E999;
+  padding-bottom: 19px;
+}
+
+.phone-information h1 {
+  padding-bottom: 9px;
+  font-weight: 700;
+  font-size: 12px;
+  color: #F5F1E9;
+}
+
+.footer {
+  background-color: #807C62;
+  padding-bottom: 20px;
+}
+
+.footer-row-items {
+  display: flex;
+  justify-content: end;
+  padding-right: 48px;
+  gap: 30px;
+  position: relative;
+  padding-top: 23px;
+  margin-left: 1400px;
+}
+
+.footer-logo {
+  font-weight: 400;
+  font-size: 14px;
+  color: #FCFAF680;
+  padding-top: 20px;
+  padding-left: 48px;
+}
+
+.footer-row-items p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #FCFAF680;
+}
+
+.footer-row-items img {
+  background-color: #FCFAF6;
+  padding: 2px 33px 2px 33px;
+  border-radius: 5px;
+}
+
+.footer-row {
+  display: flex;
+  align-items: center;
 }
